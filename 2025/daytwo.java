@@ -5,10 +5,8 @@ import java.lang.Math;
 public class daytwo {
     public static void main(String[] args) {
         //manually separated commas and dashes in vscode first
-
-      System.out.println(solveA("input.txt"));
-    System.out.println(solveB("input.txt"));
-
+        System.out.println(solveA("input.txt"));
+        System.out.println(solveB("input.txt"));
     }
 public static long solveA(String filename) {
     long total = 0;

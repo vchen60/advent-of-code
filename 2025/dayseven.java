@@ -2,11 +2,8 @@ import java.util.*;
 import java.io.*;
 public class dayseven {
     public static void main(String[] args) {
-
       System.out.println(solveA("input.txt"));
-
       System.out.println(solveB("input.txt"));
-
     }
 
 
