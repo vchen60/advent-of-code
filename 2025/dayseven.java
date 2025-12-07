@@ -29,7 +29,6 @@ public class dayseven {
       int[] tachyon1 = new int[141];
 int[] tachyon2 = new int[141];
 tachyon1[70] = 1;
-
 for (int i = 0; i < 142; i++) {
     if (i % 2 == 0) {
         for (int j = 0; j < 141; j++) {

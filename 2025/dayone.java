@@ -14,10 +14,6 @@ public class dayone {
       try {
         File file = new File(filename);
         Scanner sc = new Scanner(file);
-        ArrayList xList = new ArrayList<String>();
-        ArrayList yList = new ArrayList<String>();
-        
-      //CODE THAT SCANS THE FILE.
       int heading = 50;
       while(sc.hasNext()) {
         String a = sc.next();
@@ -37,9 +33,8 @@ public class dayone {
   }
 
 catch (FileNotFoundException ex) {
-      //File not found what should you do?
       System.out.println("File not found");
-      return -1; //you can return from a void function just don't put a value.
+      return -1;
     }
   }
     
