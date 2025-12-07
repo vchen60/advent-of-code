@@ -4,7 +4,7 @@
 Hey there! This is my site for my Advent of Code solutions, largely written in Java.
 
 Goals:
-- create working solutions for all of 2016 and 2025 (trying to bring over solutions for 2016 from my AP CSA class)
+- create working solutions for all of 2016, 2024, and 2025 (trying to bring over solutions for 2016 from my AP CSA class, and 2024 from last year)
 - create a website to record all of my solutions
 - refine my Java algorithm skills (and potentially try to write some other years using C?)
 - learn Hardcaml
