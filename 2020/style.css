@@ -1,0 +1,170 @@
+img {
+    width: 200px;
+  }
+
+  
+  :root {
+    --body-bg: rgb(6, 16, 42);
+    --body-text: rgb(255, 255, 255);
+    
+    --h1-color: rgb(180, 130, 31);
+  --h2-color: rgb(213, 224, 240);
+  --h3-color: rgb(213, 224, 240);
+  }
+
+  [data-theme="dark"] {
+    /*this is p bad but this is light mode NOT dark...*/
+    --body-bg: rgb(167, 191, 230);
+    --body-text: rgb(6,16,42);
+    --h1-color: rgb(180, 130, 31);
+    --h2-color: rgb(30, 50, 80);
+    --h3-color: rgb(18, 34, 81);
+  }
+  
+  body {
+    
+    font-family: Arial;
+    background: var(--body-bg);
+    color: var(--body-text);
+    **margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 0px;**
+  }
+
+  header {
+    position: relative;  
+    text-align: center;
+    font-size:large;
+    width: 100%;
+    height: 180px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(213, 224, 240);
+    background: rgb(80, 141, 212);
+  }
+  #themeToggle {
+    position: absolute;
+    top: 15px;       /* distance from top */
+    right: 20px;     /* distance from right */
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.25);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text);
+    font-size: 14px;
+  }
+
+  a:link {
+    color: (var(--h2-color));
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: var(--h2-color);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
+  h11 {
+    text-align: center;
+    font-size:xx-large;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(213, 224, 240);
+    background: rgb(80, 141, 212);
+  }
+  h1 {
+    text-align: center;
+    font-size:xx-large;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--h1-color);
+  }
+  h2 {
+    font-size:x-large;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--h2-color);
+  }h3{
+    font-size:large;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--h3-color);
+  }
+
+  button {
+    box-shadow:0 8px 16px 0 rgba(3, 63, 89, 0.6)
+  }
+  .tablink {
+    background-color: #3b6b93;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: #5e57a2;
+  }
+  
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+
+.card {
+  background-color: #4644b8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(54, 92, 182, 0.2);
+  overflow: hidden;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.card img {width: 100%;
+  height: 100%;
+  aspect-ratio: 1/0.9;
+  height: auto;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(61, 85, 195, 0.3);
+}
+.img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(61, 85, 195, 0.3);
+}
+  /* Style each tab content individually */
+  #Currents {background-color:rgb(140, 169, 237);}
+  #Paris {background-color:rgb(140, 169, 237);}
+  #Tokyo {background-color:rgb(140, 169, 237);}
+  #Oslo {background-color:rgb(140, 169, 237);}
+  #Resume {background-color:rgb(140, 169, 237);}
